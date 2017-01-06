@@ -1,11 +1,13 @@
 ## spark-scala
 --------------
-This project contains programs for Spark in Scala launguage.
+This project contains programs for Spark in Scala language.
 
 ## Topics Covered
 -----------------
 
-Spark Character count on a file.
+CharCount.scala : Spark Character count on a file.
+sfgov_fire_dataframe.scala : Explore SF Gov Fire incidents dataset
+SparkJsonReader.scala : Spark script to read and query JSON file
 
 ## Spark Use cases
 ------------------
