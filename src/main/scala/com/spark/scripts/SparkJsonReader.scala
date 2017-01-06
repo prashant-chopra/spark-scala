@@ -25,7 +25,7 @@ object SparkJsonReader {
     println(s"Script executed on $today")
 
     //Provide appropriate file JSON file
-    val salesDF = spark.read.json(data_path + args(0))
+    val salesDF = spark.read.json(data_path + "sales.json")
 
     salesDF.createOrReplaceTempView("sales")
 
